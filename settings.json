@@ -1,0 +1,28 @@
+{
+  "workbench.colorTheme": "Atom One Dark",
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "files.autosave": "afterDelay",
+  "editor.formatOnSave": true,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+
+  "editor.gotoLocation.multipleDefinitions": "goto",
+
+  "javascript.suggest.paths": false,
+  "typescript.suggest.paths": false,
+
+  "makefile.configureOnOpen": false,
+  "editor.accessibilitySupport": "off"
+}
