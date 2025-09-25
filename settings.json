@@ -18,11 +18,14 @@
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
 
+  "editor.accessibilitySupport": "off",
+  "python.analysis.typeCheckingMode": "standard",
+  "python.defaultInterpreterPath": "/Users/alex/.pyenv/versions/3.13.3/bin/python",
+
   "editor.gotoLocation.multipleDefinitions": "goto",
 
   "javascript.suggest.paths": false,
   "typescript.suggest.paths": false,
 
-  "makefile.configureOnOpen": false,
-  "editor.accessibilitySupport": "off"
+  "makefile.configureOnOpen": false
 }
