@@ -1,29 +1,46 @@
 {
-  "workbench.colorTheme": "Atom One Dark",
-  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
-  "workbench.iconTheme": "material-icon-theme",
+  // https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
+  // https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+  // https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph
+  // https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
+  // https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+  // https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors
+  // https://marketplace.visualstudio.com/items?itemName=ms-python.python
+  // https://marketplace.visualstudio.com/items?itemName=Redis.redis-for-vscode
+  // https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
 
   "files.autosave": "afterDelay",
   "editor.formatOnSave": true,
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
 
+  // https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark
+  "workbench.colorTheme": "Atom One Dark",
+  "editor.semanticHighlighting.enabled": false,
+
+  // https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+  "workbench.iconTheme": "material-icon-theme",
+
+  // https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
-
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  // https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
 
-  "editor.accessibilitySupport": "off",
-  "python.analysis.typeCheckingMode": "standard",
-  "python.defaultInterpreterPath": "/Users/alex/.pyenv/versions/3.13.3/bin/python",
-
+  // https://marketplace.visualstudio.com/items?itemName=antfu.goto-alias
   "editor.gotoLocation.multipleDefinitions": "goto",
 
+  // https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+  // "typescript.suggest.paths": false,
+  // "javascript.suggest.paths": false,
+
+  // https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools
   "makefile.configureOnOpen": false
 }
