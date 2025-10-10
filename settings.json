@@ -10,12 +10,13 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
+
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "charliermarsh.ruff"
   },
 
   "editor.accessibilitySupport": "off",
@@ -23,9 +24,6 @@
   "python.defaultInterpreterPath": "/Users/alex/.pyenv/versions/3.13.3/bin/python",
 
   "editor.gotoLocation.multipleDefinitions": "goto",
-
-  "javascript.suggest.paths": false,
-  "typescript.suggest.paths": false,
 
   "makefile.configureOnOpen": false
 }
