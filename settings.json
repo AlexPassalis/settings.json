@@ -33,6 +33,9 @@
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.ruff": "explicit"
+  },
 
   // https://marketplace.visualstudio.com/items?itemName=antfu.goto-alias
   "editor.gotoLocation.multipleDefinitions": "goto",
@@ -42,5 +45,8 @@
   // "javascript.suggest.paths": false,
 
   // https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools
-  "makefile.configureOnOpen": false
+  "makefile.configureOnOpen": false,
+
+  // Using https://orbstack.dev/ instead of Docker Desktop.
+  "docker.extension.dockerEngineAvailabilityPrompt": false
 }
