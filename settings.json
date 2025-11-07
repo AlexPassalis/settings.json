@@ -1,4 +1,8 @@
 {
+  // https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark
+  // https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+  // https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+  // https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff
   // https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
   // https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
   // https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph
@@ -10,6 +14,9 @@
   // https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
   // https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions
   // https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code
+  // https://marketplace.visualstudio.com/items?itemName=meta.pyrefly
+  // https://marketplace.visualstudio.com/items?itemName=antfu.goto-alias
+  // https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools
 
   "files.autosave": "afterDelay",
   "editor.formatOnSave": true,
@@ -31,6 +38,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  "python.languageServer": "Default",
   // https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff"
@@ -38,6 +46,8 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.ruff": "explicit"
   },
+  // https://marketplace.visualstudio.com/items?itemName=meta.pyrefly
+  "python.pyrefly.disableTypeErrors": "force-on",
 
   // https://marketplace.visualstudio.com/items?itemName=antfu.goto-alias
   "editor.gotoLocation.multipleDefinitions": "goto",
@@ -50,5 +60,7 @@
   "makefile.configureOnOpen": false,
 
   // Using https://orbstack.dev/ instead of Docker Desktop.
-  "docker.extension.dockerEngineAvailabilityPrompt": false
+  "docker.extension.dockerEngineAvailabilityPrompt": false,
+
+  "diffEditor.ignoreTrimWhitespace": false
 }
