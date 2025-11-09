@@ -18,7 +18,8 @@
   // https://marketplace.visualstudio.com/items?itemName=antfu.goto-alias
   // https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools
 
-  "files.autosave": "afterDelay",
+  "window.restoreWindows": "all",
+  "files.autoSave": "afterDelay",
   "editor.formatOnSave": true,
   "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
 
@@ -38,7 +39,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  "python.languageServer": "Default",
+  "python.analysis.autoImportCompletions": true,
+  "python.languageServer": "Pylance",
+  "python.defaultInterpreterPath": ".venv/bin/python",
   // https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff"
