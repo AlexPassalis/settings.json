@@ -18,6 +18,7 @@
   // https://marketplace.visualstudio.com/items?itemName=antfu.goto-alias
   // https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools
 
+  "workbench.sideBar.location": "right",
   "window.restoreWindows": "all",
   "files.autoSave": "afterDelay",
   "editor.formatOnSave": true,
@@ -65,5 +66,8 @@
   // Using https://orbstack.dev/ instead of Docker Desktop.
   "docker.extension.dockerEngineAvailabilityPrompt": false,
 
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "workbench.startupEditor": "none",
+  "claudeCode.preferredLocation": "panel"
 }
